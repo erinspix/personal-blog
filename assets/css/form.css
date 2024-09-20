@@ -1,48 +1,55 @@
 form {
+    /* Flexbox layout for form, items arranged vertically */
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    margin: 0 auto;
-    background: linear-gradient(135deg, #00ced1, #ff69b4); /* Gradient background */
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Center the form */
+    background: linear-gradient(135deg, #00ced1, #ff69b4); /* Fun gradient background */
+    padding: 2rem; /* Adds space inside the form */
+    border-radius: 10px; /* Rounded corners for that modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
 label {
+    /* Spacing above each label and playful font choice */
     margin-top: 1rem;
     color: white;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Because we're having fun with fonts */
 }
 
 input, textarea {
+    /* Spacing below inputs and textareas, with a pink border and rounded corners */
     margin-bottom: 1rem;
     padding: 0.5rem;
-    border: 2px solid #ff69b4; /* Bright pink border */
+    border: 2px solid #ff69b4; /* Pink border for input fields */
     border-radius: 5px;
 }
 
 input:focus, textarea:focus {
+    /* Change border color to cyan when focusing on the input */
     outline: none;
-    border-color: #00ced1; /* Cyan border on focus */
+    border-color: #00ced1; /* Cyan color when input is focused */
 }
 
 button {
-    background-color: #ff69b4; /* Bright pink button */
+    /* Bright pink button with white text and playful font */
+    background-color: #ff69b4; /* Eye-catching pink */
     color: white;
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Keeping it playful */
 }
 
 button:hover {
-    background-color: #ffa07a; /* Light coral on hover */
+    /* Change button color to light coral on hover */
+    background-color: #ffa07a; /* Slightly softer coral color when hovering */
 }
 
 .error-message {
+    /* Red text for errors, centered, and with playful font */
     color: red;
     text-align: center;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Keeping the font theme consistent */
 }
