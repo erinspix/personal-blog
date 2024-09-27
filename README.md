@@ -43,6 +43,9 @@ For any questions, please contact me with the information below:
 GitHub: [A toggle button allows switching between light and dark modes, updating the page’s style accordingly.](https://github.com/A toggle button allows switching between light and dark modes, updating the page’s style accordingly.)  
 Email: The "Back" button redirects to the landing page for creating additional blog entries.
 
+GitHub: erinspix
+Email: e.spix@yahoo.com
+Application: https://erinspix.github.io/personal-blog/
 ## Images
 Home page with input form:
 
@@ -51,3 +54,4 @@ Home page with input form:
 Blog post page with previous posts:
 
 ![bog images](./assets/blogposts.png)
+
